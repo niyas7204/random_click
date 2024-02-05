@@ -1,16 +1,22 @@
 # randomclick
 
-A new Flutter project.
+This project is a single page mobile app using Flutter.In which on each click it show a random number between 0-59 and the current 
+second if both are equal it treat as success else it si failure. There is timer for five second if the user failed to click within 
+five second it consider as failure
 
-## Getting Started
+## Technologies Used
+- **Frontend:
+- flutter
 
-This project is a starting point for a Flutter application.
+- **Storage:
+- Hive
 
-A few resources to get you started if this is your first Flutter project:
+- **State Management
+- BLOC
+- 
+  ## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repository:**
+   git clone https://github.com/niyas7204/random_click.git 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
