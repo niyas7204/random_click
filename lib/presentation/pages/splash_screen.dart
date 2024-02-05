@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
@@ -24,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return const Scaffold(
       body: Center(
         child: Text(
-          'Splash Screen',
+          'Random Click',
           style: TextStyle(
             color: Color.fromARGB(255, 10, 1, 1),
             fontSize: 24.0,

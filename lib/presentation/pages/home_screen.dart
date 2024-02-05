@@ -1,13 +1,9 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:randomclick/buisinesslogic/bloc/random_bloc.dart';
 import 'package:randomclick/data/data_model/score_model.dart';
-import 'package:randomclick/enums.dart';
 import 'package:randomclick/presentation/widgets/result_message.dart';
-import 'package:tuple/tuple.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

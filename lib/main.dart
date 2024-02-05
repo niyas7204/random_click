@@ -28,8 +28,9 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),
+          debugShowCheckedModeBanner: false,
           onGenerateRoute: genarateRoute,
-          initialRoute: "/home",
+          initialRoute: "/",
         ));
   }
 }
